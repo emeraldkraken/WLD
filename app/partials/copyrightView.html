@@ -1,0 +1,20 @@
+<footer class="container copyright-view">
+    <div class="col-md-12">
+        <div class="row">
+            <p class="text-center">
+                <a class="copyrightlink" href="CompanyURL" target="_blank">
+                    <!--<i class="fa fa-cloud"></i><br />-->
+                    <strong>COMPANY NAME HERE</strong>
+                </a>
+            </p>
+            <p class="text-center copyright">
+                {{'Copyright' | xlat}} © {{year}}<br /> COMPANY NAME HERE <br>{{'All Rights Reserved' | xlat}}.<br />
+                <span ng-if="!(user.Permissions.contains('HideTerms'))">
+                    <!--<a class="btn btn-default btn-sm" href="conditions">
+                        {{'Conditions of Use' | xlat}}
+                    </a>-->
+                </span>
+            </p>
+        </div>
+    </div>
+</footer>
